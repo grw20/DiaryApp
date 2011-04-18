@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		553438E112A3148300BAF09F /* MyDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */; };
+		553438E212A3148300BAF09F /* oldEntryContoller.h in Headers */ = {isa = PBXBuildFile; fileRef = F50F563D030B376601000116 /* oldEntryContoller.h */; };
+		553438E312A3148300BAF09F /* searchController.h in Headers */ = {isa = PBXBuildFile; fileRef = F50F5641030B377401000116 /* searchController.h */; };
+		553438E412A3148300BAF09F /* journalEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F50F5645030B668A01000116 /* journalEntry.h */; };
+		553438E512A3148300BAF09F /* EntryListView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E8A43503247E3401C90DD3 /* EntryListView.h */; };
+		553438E612A3148300BAF09F /* vCalExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F51C3B99033D515401000109 /* vCalExporter.h */; };
+		553438E712A3148300BAF09F /* HTMLExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE16E9051D0BC700561CF3 /* HTMLExport.h */; };
+		553438E912A3148300BAF09F /* lock-open.icns in Resources */ = {isa = PBXBuildFile; fileRef = 238AAEAC07EB4A9900FDADCC /* lock-open.icns */; };
+		553438EA12A3148300BAF09F /* lock-closed.icns in Resources */ = {isa = PBXBuildFile; fileRef = 238AAEAE07EB4AA200FDADCC /* lock-closed.icns */; };
+		553438EB12A3148300BAF09F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		553438EC12A3148300BAF09F /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		553438ED12A3148300BAF09F /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
+		553438EE12A3148300BAF09F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		553438EF12A3148300BAF09F /* Arraytest in Resources */ = {isa = PBXBuildFile; fileRef = F5BBF35703283A1901000109 /* Arraytest */; };
+		553438F012A3148300BAF09F /* cal.icns in Resources */ = {isa = PBXBuildFile; fileRef = 238AAEE007EB535400FDADCC /* cal.icns */; };
+		553438F112A3148300BAF09F /* globe.icns in Resources */ = {isa = PBXBuildFile; fileRef = 238AAEE107EB535400FDADCC /* globe.icns */; };
+		553438F312A3148300BAF09F /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
+		553438F412A3148300BAF09F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		553438F512A3148300BAF09F /* oldEntryContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F563E030B376601000116 /* oldEntryContoller.m */; };
+		553438F612A3148300BAF09F /* searchController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F5642030B377401000116 /* searchController.m */; };
+		553438F712A3148300BAF09F /* journalEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F5646030B668A01000116 /* journalEntry.m */; };
+		553438F812A3148300BAF09F /* EntryListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E8A43603247E3401C90DD3 /* EntryListView.m */; };
+		553438F912A3148300BAF09F /* vCalExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C3B9A033D515401000109 /* vCalExporter.m */; };
+		553438FA12A3148300BAF09F /* HTMLExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DE16EA051D0BC700561CF3 /* HTMLExport.m */; };
+		553438FC12A3148300BAF09F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		238AAEAC07EB4A9900FDADCC /* lock-open.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "lock-open.icns"; sourceTree = "<group>"; };
+		238AAEAE07EB4AA200FDADCC /* lock-closed.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "lock-closed.icns"; sourceTree = "<group>"; };
+		238AAEE007EB535400FDADCC /* cal.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cal.icns; sourceTree = "<group>"; };
+		238AAEE107EB535400FDADCC /* globe.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = globe.icns; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5534390112A3148300BAF09F /* Info-DiaryApp__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-DiaryApp__Upgraded_.plist"; sourceTree = "<group>"; };
+		5534390212A3148300BAF09F /* DiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DE16E9051D0BC700561CF3 /* HTMLExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLExport.h; sourceTree = "<group>"; };
+		55DE16EA051D0BC700561CF3 /* HTMLExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLExport.m; sourceTree = "<group>"; };
+		F50F563D030B376601000116 /* oldEntryContoller.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = oldEntryContoller.h; sourceTree = "<group>"; };
+		F50F563E030B376601000116 /* oldEntryContoller.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = oldEntryContoller.m; sourceTree = "<group>"; };
+		F50F5641030B377401000116 /* searchController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = searchController.h; sourceTree = "<group>"; };
+		F50F5642030B377401000116 /* searchController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = searchController.m; sourceTree = "<group>"; };
+		F50F5645030B668A01000116 /* journalEntry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = journalEntry.h; sourceTree = "<group>"; };
+		F50F5646030B668A01000116 /* journalEntry.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = journalEntry.m; sourceTree = "<group>"; };
+		F51C3B99033D515401000109 /* vCalExporter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = vCalExporter.h; sourceTree = "<group>"; };
+		F51C3B9A033D515401000109 /* vCalExporter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = vCalExporter.m; sourceTree = "<group>"; };
+		F5BBF35703283A1901000109 /* Arraytest */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Arraytest; sourceTree = "<group>"; };
+		F5E8A43503247E3401C90DD3 /* EntryListView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EntryListView.h; sourceTree = "<group>"; };
+		F5E8A43603247E3401C90DD3 /* EntryListView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EntryListView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553438FB12A3148300BAF09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553438FC12A3148300BAF09F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5534390212A3148300BAF09F /* DiaryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* DiaryApp */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				5534390112A3148300BAF09F /* Info-DiaryApp__Upgraded_.plist */,
+			);
+			name = DiaryApp;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				F50F563D030B376601000116 /* oldEntryContoller.h */,
+				F50F563E030B376601000116 /* oldEntryContoller.m */,
+				F50F5641030B377401000116 /* searchController.h */,
+				F50F5642030B377401000116 /* searchController.m */,
+				F50F5645030B668A01000116 /* journalEntry.h */,
+				F50F5646030B668A01000116 /* journalEntry.m */,
+				F5E8A43503247E3401C90DD3 /* EntryListView.h */,
+				F5E8A43603247E3401C90DD3 /* EntryListView.m */,
+				F51C3B99033D515401000109 /* vCalExporter.h */,
+				F51C3B9A033D515401000109 /* vCalExporter.m */,
+				55DE16E9051D0BC700561CF3 /* HTMLExport.h */,
+				55DE16EA051D0BC700561CF3 /* HTMLExport.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				238AAEAC07EB4A9900FDADCC /* lock-open.icns */,
+				238AAEAE07EB4AA200FDADCC /* lock-closed.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				238AAEE007EB535400FDADCC /* cal.icns */,
+				238AAEE107EB535400FDADCC /* globe.icns */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				F5BBF35703283A1901000109 /* Arraytest */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		553438E012A3148300BAF09F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553438E112A3148300BAF09F /* MyDocument.h in Headers */,
+				553438E212A3148300BAF09F /* oldEntryContoller.h in Headers */,
+				553438E312A3148300BAF09F /* searchController.h in Headers */,
+				553438E412A3148300BAF09F /* journalEntry.h in Headers */,
+				553438E512A3148300BAF09F /* EntryListView.h in Headers */,
+				553438E612A3148300BAF09F /* vCalExporter.h in Headers */,
+				553438E712A3148300BAF09F /* HTMLExport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		553438DF12A3148300BAF09F /* DiaryApp (Upgraded) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553438FD12A3148300BAF09F /* Build configuration list for PBXNativeTarget "DiaryApp (Upgraded)" */;
+			buildPhases = (
+				553438E012A3148300BAF09F /* Headers */,
+				553438E812A3148300BAF09F /* Resources */,
+				553438F212A3148300BAF09F /* Sources */,
+				553438FB12A3148300BAF09F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DiaryApp (Upgraded)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = DiaryApp;
+			productReference = 5534390212A3148300BAF09F /* DiaryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2363D5B30A45B951005F5EEA /* Build configuration list for PBXProject "DiaryApp" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* DiaryApp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553438DF12A3148300BAF09F /* DiaryApp (Upgraded) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553438E812A3148300BAF09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553438E912A3148300BAF09F /* lock-open.icns in Resources */,
+				553438EA12A3148300BAF09F /* lock-closed.icns in Resources */,
+				553438EB12A3148300BAF09F /* Credits.rtf in Resources */,
+				553438EC12A3148300BAF09F /* MainMenu.nib in Resources */,
+				553438ED12A3148300BAF09F /* MyDocument.nib in Resources */,
+				553438EE12A3148300BAF09F /* InfoPlist.strings in Resources */,
+				553438EF12A3148300BAF09F /* Arraytest in Resources */,
+				553438F012A3148300BAF09F /* cal.icns in Resources */,
+				553438F112A3148300BAF09F /* globe.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553438F212A3148300BAF09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553438F312A3148300BAF09F /* MyDocument.m in Sources */,
+				553438F412A3148300BAF09F /* main.m in Sources */,
+				553438F512A3148300BAF09F /* oldEntryContoller.m in Sources */,
+				553438F612A3148300BAF09F /* searchController.m in Sources */,
+				553438F712A3148300BAF09F /* journalEntry.m in Sources */,
+				553438F812A3148300BAF09F /* EntryListView.m in Sources */,
+				553438F912A3148300BAF09F /* vCalExporter.m in Sources */,
+				553438FA12A3148300BAF09F /* HTMLExport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = MyDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2363D5B40A45B951005F5EEA /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2363D5B50A45B951005F5EEA /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2363D5B60A45B951005F5EEA /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		553438FE12A3148300BAF09F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-DiaryApp__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = DiaryApp;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		553438FF12A3148300BAF09F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-DiaryApp__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = DiaryApp;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		5534390012A3148300BAF09F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-DiaryApp__Upgraded_.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = DiaryApp;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2363D5B30A45B951005F5EEA /* Build configuration list for PBXProject "DiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363D5B40A45B951005F5EEA /* Development */,
+				2363D5B50A45B951005F5EEA /* Deployment */,
+				2363D5B60A45B951005F5EEA /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		553438FD12A3148300BAF09F /* Build configuration list for PBXNativeTarget "DiaryApp (Upgraded)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553438FE12A3148300BAF09F /* Development */,
+				553438FF12A3148300BAF09F /* Deployment */,
+				5534390012A3148300BAF09F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

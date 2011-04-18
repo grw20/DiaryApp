@@ -1,0 +1,120 @@
+{
+    IBClasses = (
+        {
+            CLASS = EntryContainer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {entryArray = id; }; 
+            SUPERCLASS = NSMutableArray; 
+        }, 
+        {
+            ACTIONS = {openEnt = id; }; 
+            CLASS = EntryListView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {exportIt = id; showWindow = id; }; 
+            CLASS = HTMLExport; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {cancelButton = id; exportPanel = id; fileName = id; goButton = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                checkPassword = id; 
+                doLock = id; 
+                doQuit = id; 
+                feedPassword = id; 
+                openEntriesWindow = id; 
+                openInputWindow = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                actionTab = id; 
+                authInput = id; 
+                diaryentry = id; 
+                entWin = id; 
+                htmlExport = id; 
+                listWin = id; 
+                lockButton = id; 
+                "lock_unlock" = id; 
+                mainWin = id; 
+                newEntryButton = id; 
+                oldEntriesButton = id; 
+                oldentries = id; 
+                passEntryInput = id; 
+                passEntryPanel = id; 
+                passEntryReInput = id; 
+                passInputCheck = id; 
+                searcher = id; 
+                vCalExport = id; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {clearEntry = id; deleteEntry = id; saveEntry = id; }; 
+            CLASS = journalEntry; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                clearButton = id; 
+                deleteButton = id; 
+                entryField = id; 
+                entryWindow = id; 
+                inputWindow = id; 
+                newEntryButton = id; 
+                saveButton = id; 
+                titleInput = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {displayResults = id; openEnt = id; }; 
+            CLASS = oldEntryContoller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {entryList = id; entryWindow = id; oldEntriesButton = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {performSearch = id; }; 
+            CLASS = searchContoller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allEntriesRadio = id; 
+                beginDate = id; 
+                dateRangeRadio = id; 
+                endDate = id; 
+                endDateProgress = id; 
+                searchButton = id; 
+                searchProgress = id; 
+                searchStringInput = id; 
+                startDateProgress = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {performSearch = id; setTypeOfSearch = id; }; 
+            CLASS = searchController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allEntriesRadio = id; 
+                beginDate = id; 
+                dateRangeRadio = id; 
+                endDate = id; 
+                searchButton = id; 
+                searchProgress = id; 
+                searchStringInput = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {exportIt = id; showWindow = id; }; 
+            CLASS = vCalExporter; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {cancelButton = id; exportPanel = id; goButton = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
